@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FindNewCar Test"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="85.312">
+  <properties />
+  
+  
+            <testcase name="findNewCars" time="12.459" classname="testcases.FindNewCarTest" />
+                <testcase name="findNewCars" time="13.459" classname="testcases.FindNewCarTest" />
+                <testcase name="findNewCars" time="8.458" classname="testcases.FindNewCarTest" />
+                <testcase name="findNewCars" time="12.971" classname="testcases.FindNewCarTest" />
+                <testcase name="findNewCars" time="7.222" classname="testcases.FindNewCarTest" />
+                <testcase name="findNewCars" time="8.822" classname="testcases.FindNewCarTest" />
+                <testcase name="findNewCars" time="13.785" classname="testcases.FindNewCarTest" />
+                <testcase name="findNewCars" time="8.136" classname="testcases.FindNewCarTest" />
+      
+</testsuite>
