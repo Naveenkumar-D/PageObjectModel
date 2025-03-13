@@ -31,7 +31,7 @@ public class BaseTest {
 	public FileInputStream fis;
 	public Logger log = LogManager.getLogger();
 	public ExcelReader excel = new ExcelReader(
-			"D:\\Selenium Projects\\PageObjectModel\\src\\test\\resources\\excel\\Testdata.xlsx");
+			System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\Testdata.xlsx");
 
 	// @BeforeSuite
 	public void setUp(String browser) {
@@ -87,8 +87,7 @@ public class BaseTest {
 
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver(options);
-		}
-		if (browser.equals("ie")) {
+		} else if (browser.equals("ie")) {
 
 			driver = new InternetExplorerDriver();
 		}
