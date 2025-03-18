@@ -11,9 +11,19 @@
       <class name="testcases.FindNewCarTest">
         <methods>
           <include name="tearDown"/>
-          <include name="findNewCars" invocation-numbers="6"/>
+          <include name="findNewCars" invocation-numbers="4"/>
         </methods>
       </class> <!-- testcases.FindNewCarTest -->
     </classes>
   </test> <!-- FindNewCar Test(failed) -->
+  <test thread-count="5" name="ExploreUsedCars Test(failed)">
+    <classes>
+      <class name="testcases.ExploreUsedCarsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="exploreUsedCars" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- testcases.ExploreUsedCarsTest -->
+    </classes>
+  </test> <!-- ExploreUsedCars Test(failed) -->
 </suite> <!-- Failed suite [PageObjectModel Suite] -->

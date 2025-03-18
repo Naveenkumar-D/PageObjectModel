@@ -1,133 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-13T12:28:02 IST" name="Default suite" finished-at="2025-03-13T12:29:08 IST" duration-ms="66592">
+  <suite started-at="2025-03-18T22:39:14 IST" name="Default suite" finished-at="2025-03-18T22:40:06 IST" duration-ms="51444">
     <groups>
     </groups>
-    <test started-at="2025-03-13T12:28:02 IST" name="Default test" finished-at="2025-03-13T12:29:08 IST" duration-ms="66592">
-      <class name="testcases.FindNewCarTest">
-        <test-method signature="findNewCars(java.util.Hashtable)[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:28:02 IST" name="findNewCars" data-provider="dp1" finished-at="2025-03-13T12:28:11 IST" duration-ms="8980" status="PASS">
+    <test started-at="2025-03-18T22:39:14 IST" name="Default test" finished-at="2025-03-18T22:40:06 IST" duration-ms="51444">
+      <class name="testcases.ExploreUsedCarsTest">
+        <test-method signature="exploreUsedCars(java.util.Hashtable)[pri:0, instance:testcases.ExploreUsedCarsTest@5eccd3b9]" started-at="2025-03-18T22:39:14 IST" name="exploreUsedCars" data-provider="dp1" finished-at="2025-03-18T22:39:43 IST" duration-ms="28926" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{carbrand=Tata, cartitle=Tata Cars, browser=chrome, runmode=Y}]]>
+                <![CDATA[{browser=chrome, runmode=Y, city=Mumbai}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findNewCars -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:28:11 IST" name="tearDown" finished-at="2025-03-13T12:28:11 IST" duration-ms="580" status="PASS">
+        </test-method> <!-- exploreUsedCars -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ExploreUsedCarsTest@5eccd3b9]" started-at="2025-03-18T22:39:43 IST" name="tearDown" finished-at="2025-03-18T22:39:44 IST" duration-ms="280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="findNewCars(java.util.Hashtable)[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:28:11 IST" name="findNewCars" data-provider="dp1" finished-at="2025-03-13T12:28:18 IST" duration-ms="7036" status="PASS">
+        <test-method signature="exploreUsedCars(java.util.Hashtable)[pri:0, instance:testcases.ExploreUsedCarsTest@5eccd3b9]" started-at="2025-03-18T22:39:44 IST" name="exploreUsedCars" data-provider="dp1" finished-at="2025-03-18T22:40:04 IST" duration-ms="20757" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{carbrand=Kia, cartitle=Kia Cars, browser=chrome, runmode=Y}]]>
+                <![CDATA[{browser=edge, runmode=Y, city=Dehli}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findNewCars -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:28:18 IST" name="tearDown" finished-at="2025-03-13T12:28:19 IST" duration-ms="613" status="PASS">
+        </test-method> <!-- exploreUsedCars -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ExploreUsedCarsTest@5eccd3b9]" started-at="2025-03-18T22:40:04 IST" name="tearDown" finished-at="2025-03-18T22:40:06 IST" duration-ms="1203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="findNewCars(java.util.Hashtable)[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:28:19 IST" name="findNewCars" data-provider="dp1" finished-at="2025-03-13T12:28:26 IST" duration-ms="7243" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{carbrand=BMW, cartitle=BMW Cars, browser=chrome, runmode=Y}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findNewCars -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:28:26 IST" name="tearDown" finished-at="2025-03-13T12:28:27 IST" duration-ms="549" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="findNewCars(java.util.Hashtable)[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:28:27 IST" name="findNewCars" data-provider="dp1" finished-at="2025-03-13T12:28:34 IST" duration-ms="7410" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{carbrand=Toyota, cartitle=Toyota Cars, browser=chrome, runmode=Y}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findNewCars -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:28:34 IST" name="tearDown" finished-at="2025-03-13T12:28:35 IST" duration-ms="552" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="findNewCars(java.util.Hashtable)[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:28:35 IST" name="findNewCars" data-provider="dp1" finished-at="2025-03-13T12:28:44 IST" duration-ms="8916" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{carbrand=Hyundai, cartitle=Hyundai Cars, browser=chrome, runmode=Y}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findNewCars -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:28:44 IST" name="tearDown" finished-at="2025-03-13T12:28:44 IST" duration-ms="597" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="findNewCars(java.util.Hashtable)[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:28:44 IST" name="findNewCars" data-provider="dp1" finished-at="2025-03-13T12:28:52 IST" duration-ms="7401" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{carbrand=Honda, cartitle=Honda Cars, browser=chrome, runmode=Y}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findNewCars -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:28:52 IST" name="tearDown" finished-at="2025-03-13T12:28:52 IST" duration-ms="582" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="findNewCars(java.util.Hashtable)[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:28:52 IST" name="findNewCars" data-provider="dp1" finished-at="2025-03-13T12:29:00 IST" duration-ms="7373" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{carbrand=MG, cartitle=MG Cars, browser=chrome, runmode=Y}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findNewCars -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:29:00 IST" name="tearDown" finished-at="2025-03-13T12:29:00 IST" duration-ms="603" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="findNewCars(java.util.Hashtable)[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:29:00 IST" name="findNewCars" data-provider="dp1" finished-at="2025-03-13T12:29:08 IST" duration-ms="7348" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{carbrand=Mahindra, cartitle=Mahindra Cars, browser=chrome, runmode=Y}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findNewCars -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindNewCarTest@4e558728]" started-at="2025-03-13T12:29:08 IST" name="tearDown" finished-at="2025-03-13T12:29:08 IST" duration-ms="565" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.FindNewCarTest -->
+      </class> <!-- testcases.ExploreUsedCarsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
