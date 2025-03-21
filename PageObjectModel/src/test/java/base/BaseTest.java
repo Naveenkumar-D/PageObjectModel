@@ -1,7 +1,7 @@
 package base;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -20,13 +20,11 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.firefox.FirefoxProfile;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+
 import utilities.ExcelReader;
 
 public class BaseTest {
@@ -50,7 +48,8 @@ public class BaseTest {
 			options.addPreference("dom.webnotifications.enabled", false);
 
 			
-				driver = initializeRemoteDriver(options);
+				//driver = initializeRemoteDriver(options);
+			driver= new FirefoxDriver(options);
 			
 
 		} else if (browser.equals("chrome")) {
@@ -68,7 +67,8 @@ public class BaseTest {
 			options.setExperimentalOption("prefs", prefs);
 
 			WebDriverManager.chromedriver().setup();
-			driver = initializeRemoteDriver(options);
+			//driver = initializeRemoteDriver(options);
+			driver= new ChromeDriver(options);
 
 		} else if (browser.equals("edge")) {
 
@@ -80,14 +80,16 @@ public class BaseTest {
 			options.setExperimentalOption("prefs", prefs);
 
 			// Launch browser in Docker container
-			driver = initializeRemoteDriver(options);
-
+			//driver = initializeRemoteDriver(options);
+			driver= new EdgeDriver(options);
 		}
 		driver.get(Config.getProperty("testurl"));
 		driver.manage().window().maximize();
 		driver.manage().timeouts()
 				.implicitlyWait(Duration.ofSeconds(Integer.parseInt(Config.getProperty("implicitWait"))));
 	}
+
+	
 
 	public void getProperties() {
 
@@ -107,7 +109,7 @@ public class BaseTest {
 		}
 
 	}
-	String remoteURL = "http://172.22.224.1:4444";
+	String remoteURL = "http://localhost:4444";
 	public WebDriver initializeRemoteDriver(Capabilities options) {
        
         try {

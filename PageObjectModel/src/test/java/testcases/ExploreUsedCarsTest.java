@@ -5,7 +5,7 @@ import java.util.Hashtable;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
-import base.BasePage;
+import basepage.BasePage;
 import base.BaseTest;
 import pages.HomePage;
 import pages.UsedCarPage;

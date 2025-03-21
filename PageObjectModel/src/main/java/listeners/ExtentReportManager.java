@@ -12,7 +12,8 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import base.BasePage;
+import basepage.BasePage;
+
 
 public class ExtentReportManager {
 

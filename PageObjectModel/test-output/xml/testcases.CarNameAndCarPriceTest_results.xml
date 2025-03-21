@@ -4,17 +4,17 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="113.428">
+           time="85.635">
   <properties />
   
   
-            <testcase name="carNameAndCarPrice" time="9.470" classname="testcases.CarNameAndCarPriceTest" />
-                <testcase name="carNameAndCarPrice" time="13.632" classname="testcases.CarNameAndCarPriceTest" />
-                <testcase name="carNameAndCarPrice" time="9.310" classname="testcases.CarNameAndCarPriceTest" />
-                <testcase name="carNameAndCarPrice" time="13.180" classname="testcases.CarNameAndCarPriceTest" />
-                <testcase name="carNameAndCarPrice" time="15.805" classname="testcases.CarNameAndCarPriceTest" />
-                <testcase name="carNameAndCarPrice" time="18.971" classname="testcases.CarNameAndCarPriceTest" />
-                <testcase name="carNameAndCarPrice" time="18.657" classname="testcases.CarNameAndCarPriceTest" />
-                <testcase name="carNameAndCarPrice" time="14.403" classname="testcases.CarNameAndCarPriceTest" />
+            <testcase name="carNameAndCarPrice" time="11.070" classname="testcases.CarNameAndCarPriceTest" />
+                <testcase name="carNameAndCarPrice" time="13.750" classname="testcases.CarNameAndCarPriceTest" />
+                <testcase name="carNameAndCarPrice" time="11.963" classname="testcases.CarNameAndCarPriceTest" />
+                <testcase name="carNameAndCarPrice" time="8.126" classname="testcases.CarNameAndCarPriceTest" />
+                <testcase name="carNameAndCarPrice" time="13.665" classname="testcases.CarNameAndCarPriceTest" />
+                <testcase name="carNameAndCarPrice" time="7.587" classname="testcases.CarNameAndCarPriceTest" />
+                <testcase name="carNameAndCarPrice" time="11.368" classname="testcases.CarNameAndCarPriceTest" />
+                <testcase name="carNameAndCarPrice" time="8.106" classname="testcases.CarNameAndCarPriceTest" />
       
 </testsuite>

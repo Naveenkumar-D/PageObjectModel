@@ -15,7 +15,7 @@ import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
-import base.BasePage;
+import basepage.BasePage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pages.HomePage;
 import pages.NewCarPage;

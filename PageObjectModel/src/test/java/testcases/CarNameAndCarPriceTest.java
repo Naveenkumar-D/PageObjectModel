@@ -2,12 +2,11 @@ package testcases;
 
 import java.util.Hashtable;
 
-
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
-import base.BasePage;
 import base.BaseTest;
+import basepage.BasePage;
 import pages.HomePage;
 import pages.NewCarPage;
 import utilities.TestUtil;
@@ -42,7 +41,6 @@ public class CarNameAndCarPriceTest extends BaseTest {
 		} else if (data.get("carbrand").equals("Honda")) {
 			carpage.goToHonda();
 		}
-
 		BasePage.carBase.getCarNameAndCarPrize();
 
 	}

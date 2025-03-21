@@ -6,8 +6,8 @@ import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
-import base.BasePage;
 import base.BaseTest;
+import basepage.BasePage;
 import pages.HomePage;
 import pages.NewCarPage;
 import utilities.TestUtil;

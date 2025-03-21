@@ -1,92 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="FindNewCar Test"
            tests="8"
-           failures="1"
+           failures="0"
            errors="0"
            skipped="0"
-           time="81.435">
+           time="81.945">
   <properties />
-            <testcase name="findNewCars" time="13.425" classname="testcases.FindNewCarTest">
-                <failure type="org.openqa.selenium.NoSuchElementException"
-                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Find New Cars&apos;)]&quot;}
-  (Session info: chrome=134.0.6998.35)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [7fe29ff8ce4d0dde8e5c1e97e8a27a7f, findElement {using=xpath, value=//div[contains(text(),&apos;Find New Cars&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.35, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34821}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.7:4444/sessio..., se:cdpVersion: 134.0.6998.35, se:containerName: 6445e8efa1b6, se:noVncPort: 7900, se:vnc: ws://172.18.0.7:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.7:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7fe29ff8ce4d0dde8e5c1e97e8a27a7f"
-              >
-<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Find New Cars')]"}
-  (Session info: chrome=134.0.6998.35)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [7fe29ff8ce4d0dde8e5c1e97e8a27a7f, findElement {using=xpath, value=//div[contains(text(),'Find New Cars')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.35, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34821}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.7:4444/sessio..., se:cdpVersion: 134.0.6998.35, se:containerName: 6445e8efa1b6, se:noVncPort: 7900, se:vnc: ws://172.18.0.7:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.7:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7fe29ff8ce4d0dde8e5c1e97e8a27a7f
-  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-  org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-  org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-  org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-  org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-  org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-  jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
-  pages.HomePage.findNewCar(HomePage.java:39)
-  testcases.FindNewCarTest.findNewCars(FindNewCarTest.java:26)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.base/java.lang.reflect.Method.invoke(Method.java:568)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-  org.testng.TestRunner.privateRun(TestRunner.java:739)
-  org.testng.TestRunner.run(TestRunner.java:614)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-  org.testng.SuiteRunner.run(SuiteRunner.java:312)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-  org.testng.TestNG.runSuites(TestNG.java:1112)
-  org.testng.TestNG.run(TestNG.java:1079)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-      </failure>
-
-          </testcase>
   
   
-            <testcase name="findNewCars" time="8.745" classname="testcases.FindNewCarTest" />
-                <testcase name="findNewCars" time="10.381" classname="testcases.FindNewCarTest" />
-                <testcase name="findNewCars" time="7.782" classname="testcases.FindNewCarTest" />
-                <testcase name="findNewCars" time="12.371" classname="testcases.FindNewCarTest" />
-                <testcase name="findNewCars" time="10.190" classname="testcases.FindNewCarTest" />
-                <testcase name="findNewCars" time="8.023" classname="testcases.FindNewCarTest" />
-                <testcase name="findNewCars" time="10.518" classname="testcases.FindNewCarTest" />
+            <testcase name="findNewCars" time="10.441" classname="testcases.FindNewCarTest" />
+                <testcase name="findNewCars" time="12.302" classname="testcases.FindNewCarTest" />
+                <testcase name="findNewCars" time="7.711" classname="testcases.FindNewCarTest" />
+                <testcase name="findNewCars" time="10.399" classname="testcases.FindNewCarTest" />
+                <testcase name="findNewCars" time="6.750" classname="testcases.FindNewCarTest" />
+                <testcase name="findNewCars" time="11.312" classname="testcases.FindNewCarTest" />
+                <testcase name="findNewCars" time="7.243" classname="testcases.FindNewCarTest" />
+                <testcase name="findNewCars" time="15.787" classname="testcases.FindNewCarTest" />
       
 </testsuite>
